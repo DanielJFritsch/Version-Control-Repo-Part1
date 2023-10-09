@@ -27,7 +27,7 @@ try:
     if character in vowels:
       nameVowels += 1
     elif character in consonants:
-      nameVowels += 1
+      nameConsonants += 1
   print ("Length of name: ", len(name))
   print ("Your name has ", nameVowels, " vowels and ", nameConsonants, "consonants.")
 
@@ -37,7 +37,7 @@ try:
     if character in vowels:
       colorVowels += 1
     elif character in consonants:
-      colorVowels += 1
+      colorConsonants += 1
   print ("Length of color: ", len(color))
   print ("Your color has ", colorVowels, " vowels and ", colorConsonants, "consonants.")
 
@@ -47,7 +47,7 @@ try:
     if character in vowels:
       petVowels += 1
     elif character in consonants:
-      petVowels += 1
+      petConsonants += 1
   print ("Length of pet name: ", len(pet))
   print ("Your pet name has ", petVowels, " vowels and ", petConsonants, "consonants.")
 except: 
